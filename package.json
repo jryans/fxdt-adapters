@@ -11,6 +11,7 @@
   "license": "MPL 2.0",
   "version": "0.0.1",
   "main": "lib/main.js",
+  "bin": "bin/valence.js",
   "preferences": [{
     "name": "logDeviceProtocolTraffic",
     "title": "Log the protocol traffic to and from the device",
