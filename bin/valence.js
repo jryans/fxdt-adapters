@@ -18,6 +18,8 @@ const Task = require("../lib/util/task");
 
 let wsServer = new WebSocketServer({ port: 9000 });
 
+console.log("Listening for WS on *:9000");
+
 wsServer.on("connection", connection => {
   connection.on("message", console.log);
   connection.send("hello");
