@@ -1,5 +1,7 @@
 "use strict";
 
+require("babel-core/register");
+
 const WebSocketServer = require("ws").Server;
 const valenceServer = require("../lib/chromium/server");
 const Task = require("../lib/util/task");
