@@ -5,7 +5,11 @@ site-config.json
 .grunt
 npm-debug.log
 node_modules/*
+!node_modules/chrome
+!node_modules/devtools
+!node_modules/promise
 !node_modules/sdk
+!node_modules/Services
 /update.rdf
 /bootstrap.js
 .DS_Store

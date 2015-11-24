@@ -1,6 +1,16 @@
 "use strict";
 
-require("babel-core/register");
+require("babel-core/register")({
+  only: function(path) {
+    if (!path.includes("node_modules")) {
+      return true;
+    }
+    if (path.match(/node_modules\/devtools|node_modules\/sdk/)) {
+      return true;
+    }
+    return false;
+  }
+});
 
 const WebSocketServer = require("ws").Server;
 const valenceServer = require("../lib/chromium/server");
