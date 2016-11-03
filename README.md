@@ -64,12 +64,12 @@ In addition to the installation instructions, you will need to enable developer 
 
 Debugging Safari, Firefox, and other WebViews on iOS is possible through the use of the following open source libraries that come bundled with this extension:
 
-1. [ios_webkit_debug_proxy](https://github.com/google/ios-webkit-debug-proxy) version 1.4 on both OS X and Linux
-2. [libimobiledevice](https://github.com/libimobiledevice/libimobiledevice) version 1.1.5 on OS X, 1.2.0pre on Linux
-3. [libplist](https://github.com/libimobiledevice/libplist) version 1.10 on OS X, 1.12pre on Linux
-4. [libusbmuxd](https://github.com/libimobiledevice/libusbmuxd) version 1.0.8 on OS X, 1.0.0pre on Linux
+1. [ios-webkit-debug-proxy](https://github.com/google/ios-webkit-debug-proxy) 1.4 on Linux, [0b2770c](https://github.com/google/ios-webkit-debug-proxy/commit/0b2770cd941403325a060a43617c434426cdfe7b) on macOS
+2. [libimobiledevice](https://github.com/libimobiledevice/libimobiledevice) [8c37b9c](https://github.com/libimobiledevice/libimobiledevice/commit/8c37b9ca13211c197f3452356b73114c39f549fd) on macOS, 1.2.0pre on Linux
+3. [libplist](https://github.com/libimobiledevice/libplist) 1.12 on macOS, 1.12pre on Linux
+4. [libusbmuxd](https://github.com/libimobiledevice/libusbmuxd) 1.0.10 on macOS, 1.0.0pre on Linux
 
-On Windows we are using the [ios-webkit-debug-proxy](https://github.com/google/ios-webkit-debug-proxy) port at commit 20679aaa990b82e7fb43e434e271cce17e327f90. An additional runtime requirement on Windows is to have iTunes installed, or at least the Apple Mobile Device Support and Apple Application Support applications that come with it.
+On Windows we are using the [ios-webkit-debug-proxy](https://github.com/google/ios-webkit-debug-proxy) port at [20679aa](https://github.com/google/ios-webkit-debug-proxy/commit/20679aaa990b82e7fb43e434e271cce17e327f90). An additional runtime requirement on Windows is to have iTunes installed, or at least the Apple Mobile Device Support and Apple Application Support applications that come with it.
 
 Why did you start this project?
 -------------------------------
